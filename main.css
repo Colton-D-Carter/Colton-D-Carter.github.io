@@ -1,0 +1,104 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto Slab', serif;
+ }
+ 
+ img{
+  padding-top: 10px;
+  padding-right: 10px;
+  float: right;
+ }
+header{
+  padding-top: 1px;
+  background-color: burlywood;
+  text-align: center;
+  border-radius: 15px;
+} 
+
+.javaP{
+  padding-top: 0em;
+}
+p { 
+  font-family: "Georgia";
+  }
+#all-page {
+  max-width: 960px;
+  margin: 0 auto;
+  }  
+main{
+  padding: 1em;
+  background-color: white;
+  }
+
+
+footer{
+  padding-top: -5px;
+  padding-bottom: -5px;
+  text-align: center;
+  background-color: burlywood;
+  font-family: "Arial Black";
+  border-radius: 15px;
+  }
+  
+  {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+.left{
+  background-color: purple;
+  float: left;
+  
+}
+.right{
+  background-color: red;
+  float: right;
+  
+}
+.middle{
+  background-color: purple;
+  
+  
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+    
+  }
+  @media screen and (min-width: 45em) {
+    main{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      /* background-color: purple; */
+      grid-gap:45px;
+    }
+    /*img.self-img{
+      background-color: green;
+    } */
+    
+  }
+  @media screen and (min-width: 70em) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /*background-color: green; */
+      }
+      
+      
+  }
+  
+  
+  /* Casper Sato */
+
