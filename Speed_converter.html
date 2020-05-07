@@ -12,7 +12,14 @@
   </p>
   <p>KPH: <span id="outputKPH"></span></p>
   
-  <script>
+  <input id="inputMPH" type="number" placeholder="MPH" oninput="speedConverter(this.value)" onchange="speedConverter(this.value)">
+</p>
+<p>Knots: <span id="outputKnots"></span></p>
+
+<script>
+function speedConverter(valNum) {
+  document.getElementById("outputKnots").innerHTML=valNum/1.150779;
+}
   function speedConverter(valNum) {
     document.getElementById("outputKPH").innerHTML=valNum*1.609344;
   }
