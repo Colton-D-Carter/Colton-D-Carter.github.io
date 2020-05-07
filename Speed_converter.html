@@ -7,27 +7,15 @@
 <p>Type a value in the MPH field to convert the value to KPH:</p>
 
 <p>
-  <label>MPH</label>
-  <input id="inputMPH" type="number" placeholder="MPH" oninput="speedConverter(this.value)" onchange="speedConverter(this.value)">
-</p>
-<hr>
-<p>
     <label>MPH</label>
     <input id="inputMPH" type="number" placeholder="MPH" oninput="speedConverter(this.value)" onchange="speedConverter(this.value)">
   </p>
-  <p>Knots: <span id="outputKnots"></span></p>
+  <p>KPH: <span id="outputKPH"></span></p>
   
   <script>
   function speedConverter(valNum) {
-    document.getElementById("outputKnots").innerHTML=valNum/1.150779;
+    document.getElementById("outputKPH").innerHTML=valNum*1.609344;
   }
-
-<p>KPH: <span id="outputKPH"></span></p>
-
-
-function speedConverter(valNum) {
-  document.getElementById("outputKPH").innerHTML=valNum*1.609344;
-}
 </script>
 
 </body>
