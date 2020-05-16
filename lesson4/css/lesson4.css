@@ -123,8 +123,13 @@ li:first-child{
 }
 
 .catch-phrase {
+    background-color:pink;
     margin-top: 0px;
     padding-top: 0px;
+}
+
+.header-background{
+    background-color:black;
 }
 
 @media screen and (min-width: 550px) {
