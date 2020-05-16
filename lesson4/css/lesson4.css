@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--headline-color-on-white);
 }
 header {
-  padding: 1em;
+  
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--text-background-color);
