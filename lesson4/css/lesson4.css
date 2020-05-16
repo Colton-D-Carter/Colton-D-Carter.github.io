@@ -12,6 +12,7 @@
 
   --heading-font: "Arial Black", Gadget, sans-serif;
   --paragraph-font: Georgia, serif;
+  --nheader-background-color: Black;
 
   --paragraph-color: #1160f2;
   --headline-color-on-white: #4ecdc4;  
@@ -90,6 +91,7 @@ p.colored {
 nav {
   background-color: var(--nav-background-color);
   text-align: center;
+  padding-top: -10px;
 }
 
 nav a:link, nav a:visited {
@@ -123,18 +125,18 @@ li:first-child{
 }
 
 .header-background{
-    background-color:black;
+    background-color:var(--nheader-background-color);;
 }
 .catch-phrase {
     background-color:green;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: -10px;
+    padding-top: -10px;
 }
 
 h2{
     text-align: center;
-    background-color:pink;
 }
+
 @media screen and (min-width: 550px) {
     ul {
         flex-direction: row;
