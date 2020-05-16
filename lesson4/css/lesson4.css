@@ -122,16 +122,19 @@ li:first-child{
     display: block;
 }
 
+.header-background{
+    background-color:black;
+}
 .catch-phrase {
-    background-color:pink;
+    background-color:green;
     margin-top: 0px;
     padding-top: 0px;
 }
 
-.header-background{
-    background-color:black;
+h2{
+    text-align: center;
+    background-color:pink;
 }
-
 @media screen and (min-width: 550px) {
     ul {
         flex-direction: row;
