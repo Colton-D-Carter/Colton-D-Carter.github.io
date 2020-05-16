@@ -109,6 +109,7 @@ nav a:hover {
 
 
 ul{
+    width: 100%;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -147,7 +148,7 @@ footer{
 .contentbox{
     border-style: dotted;
     background-color: var(--contentbox-color);
-    padding: 15px;
+    padding: 1em;
 
 }
 
