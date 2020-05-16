@@ -89,13 +89,8 @@ p.colored {
 /* NAV */
 nav {
   background-color: var(--nav-background-color);
-  
 }
 
-nav a {
-  padding:1em;
-  min-width: 70px;
-}
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
