@@ -48,7 +48,6 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--headline-color-on-white);
 }
 header {
-  
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--text-background-color);
@@ -59,7 +58,7 @@ header > h1, header > h2 {
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
-  padding: 1em;
+  
 }
 /* END of Quick settings CSS*/
 
