@@ -1,5 +1,5 @@
-alert ('I suck at JS 3!');
+alert ('I suck at JS 4!');
 const mainnav = document.querySelector('.navigation');
 const hambutton = document.querySelector('.ham');
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle});
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')});
