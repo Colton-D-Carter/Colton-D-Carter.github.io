@@ -12,8 +12,8 @@
 
   --heading-font: "Arial Black", Gadget, sans-serif;
   --paragraph-font: Georgia, serif;
-  --nheader-background-color: Black;
-  --footer-color: #1160f2;
+  --nheader-background-color:green;
+  --footer-color: green;
 
   --paragraph-color: #1160f2;
   --headline-color-on-white: #4ecdc4;  
@@ -129,7 +129,6 @@ li:first-child{
     background-color:var(--nheader-background-color);
 }
 .catch-phrase {
-    background-color:green;
     margin-top: -10px;
     padding-top: -10px;
 }
@@ -146,7 +145,7 @@ footer{
 
 .contentbox{
     border-style: dotted;
-    
+
 }
 
 @media screen and (min-width: 550px) {
