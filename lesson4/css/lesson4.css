@@ -142,7 +142,6 @@ footer{
     padding-bottom: -5px;
     text-align: center;
     background-color: var(--footer-color);
-    border-radius: 15px;
     }
 
 @media screen and (min-width: 550px) {
