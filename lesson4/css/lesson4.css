@@ -130,12 +130,13 @@ li:first-child{
     background-color:var(--nheader-background-color);
 }
 .catch-phrase {
-    margin-top: -10px;
+    
     padding-top: -10px;
 }
 
 h2{
     text-align: center;
+    padding-top: -50px;
 }
 footer{
     padding-top: -5px;
