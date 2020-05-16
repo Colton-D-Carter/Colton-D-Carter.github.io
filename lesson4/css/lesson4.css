@@ -1,0 +1,27 @@
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    padding: 15px;
+    display: none;
+}
+
+li:first-child{
+    display:block;
+}
+
+@media screen and (min-width: 550px) {
+    ul {
+        flex-direction: row;
+    }
+
+    li:first-child {
+        display: none;
+    }
+    li {
+        display: block;
+    }
+}
