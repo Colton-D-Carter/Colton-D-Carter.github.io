@@ -1,4 +1,4 @@
-alert ('I suck at JS 7!');
+alert ('I suck at JS 8!');
 const mainnav = document.querySelector('.navigation');
 const hambutton = document.querySelector('.ham');
 
