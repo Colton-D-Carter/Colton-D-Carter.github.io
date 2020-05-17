@@ -165,3 +165,19 @@ footer{
         display: block;
     }
 }
+
+@media screen and (min-width: 605px) {
+    ul {
+        flex-direction: row;
+    }
+
+    li:first-child {
+        display: none;
+    }
+    li {
+        display: block;
+    }
+    body{
+        padding: 1em;
+    }
+}
