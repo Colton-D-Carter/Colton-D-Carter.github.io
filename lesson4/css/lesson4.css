@@ -175,6 +175,8 @@ footer{
     }
 
     body{
+        max-width: 900px;
+        height: 900px;
         padding: 1em;
         margin: 0 auto;
     }
