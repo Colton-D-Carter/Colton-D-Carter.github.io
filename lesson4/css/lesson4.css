@@ -132,7 +132,7 @@ li:first-child{
     background-color:var(--nheader-background-color);
 }
 .catch-phrase {
-    
+    padding: -80px;
     text-align: center;
 }
 
