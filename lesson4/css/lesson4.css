@@ -154,16 +154,7 @@ footer{
 }
 
 @media screen and (min-width: 550px) {
-    ul {
-        flex-direction: row;
-    }
-
-    li:first-child {
-        display: none;
-    }
-    li {
-        display: block;
-    }
+    
 }
 
 @media screen and (min-width: 605px) {
@@ -177,7 +168,13 @@ footer{
     li {
         display: block;
     }
+    
     body{
         padding: 1em;
+        margin: 0 auto;
     }
+}
+
+@media screen and (min-width: 710px) {
+    
 }
