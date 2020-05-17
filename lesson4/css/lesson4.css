@@ -182,15 +182,7 @@ footer{
         padding: 1em;
         margin: 0 auto;
     }
-    footer{
-        border-radius: 5cm;
-    }
-    nav{
-        border-radius: 5cm;
-    }
-    .header{
-        border-radius: 5cm;
-    }
+    
 }
 
 @media screen and (min-width: 710px) {
