@@ -159,11 +159,11 @@ footer{
         max-width: 300px;
         height: 900px;
         padding: 0px;
-        
+        margin: 0 auto;
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (min-width: 680px) {
     ul {
         flex-direction: row;
     }
