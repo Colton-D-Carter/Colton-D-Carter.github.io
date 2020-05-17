@@ -185,6 +185,12 @@ footer{
     footer{
         border-radius: 5cm;
     }
+    nav{
+        border-radius: 5cm;
+    }
+    .contentbox{
+        border-radius: 5cm;
+    }
 }
 
 @media screen and (min-width: 710px) {
