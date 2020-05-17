@@ -147,7 +147,7 @@ footer{
     }
 
 .contentbox{
-    border-style: dotted;
+    border-style: dashed;
     background-color: var(--contentbox-color);
     padding: 1em;
 
