@@ -1,4 +1,4 @@
-
+alert ('I suck at java 20');
 const mainnav = document.querySelector('.navigation');
 const hambutton = document.querySelector('.ham');
 
