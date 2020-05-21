@@ -17,5 +17,7 @@ const dateoutput = Document.querySelector('.date');
 dateoutput.textContent = weekname + ", " + mydate.getDate() + " " + monthname + " " + mydate.getFullYear();
 
 if (w_name = 'Thursday') {
-    alert ('I suck at java 6');
-}
+    System.out.println("Good day.");
+    } else {
+      System.out.println("Good evening.");
+    }  
