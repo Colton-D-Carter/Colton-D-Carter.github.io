@@ -1,4 +1,4 @@
-alert ('I suck at java 23');
+alert ('I suck at java 24');
 const mainnav = document.querySelector('.navigation');
 const hambutton = document.querySelector('.ham');
 
