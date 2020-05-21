@@ -1,4 +1,4 @@
-
+alert ('I suck at java 1');
 const mainnav = document.querySelector('.navigation');
 const hambutton = document.querySelector('.ham');
 
@@ -17,7 +17,7 @@ const dateoutput = Document.querySelector('.date');
 dateoutput.textContent = weekname + ", " + mydate.getDate() + " " + monthname + " " + mydate.getFullYear();
 
 if (w_name = 'Thursday') {
-    System.out.println("Good day.");
+    alert ('I suck at java 2');
     } else {
-      System.out.println("Good evening.");
+      alert ('I suck at java 3');
     }  
