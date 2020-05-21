@@ -1,4 +1,4 @@
-alert ('I suck at java 20');
+alert ('I suck at java 21');
 const mainnav = document.querySelector('.navigation');
 const hambutton = document.querySelector('.ham');
 
@@ -11,6 +11,7 @@ let mydate = new Date();
 
 let weekname = w_name[mydate.getDay()];
 let monthname =m_name[mydate.getMonth()];
+alert (weekname);
 
 const dateoutput = Document.querySelector('.date');
 
@@ -18,6 +19,4 @@ dateoutput.textContent = weekname + ", " + mydate.getDate() + " " + monthname + 
 
 if (weekname = 'Thursday') {
     alert ('I suck at java 2');
-    } else {
-      alert ('I suck at java 3');
-    }  
+    }
