@@ -1,4 +1,4 @@
-alert ('I suck at JS 3!');
+
 const mainnav = document.querySelector('.navigation');
 const hambutton = document.querySelector('.ham');
 
@@ -15,3 +15,7 @@ let monthname =m_name[mydate.getMonth()];
 const dateoutput = Document.querySelector('.date');
 
 dateoutput.textContent = weekname + ", " + mydate.getDate() + " " + monthname + " " + mydate.getFullYear();
+
+if (w_name = 'Thursday') {
+    alert ('I suck at java 6');
+}
