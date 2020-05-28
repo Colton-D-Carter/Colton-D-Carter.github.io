@@ -194,6 +194,14 @@ footer{
 .map{
   float: left;
 }
+.sat-alart {
+  display: none;
+  background-color: yellow;
+  text-align: center;
+  font-size: 15px;
+  
+}
+
 
 @media screen and (max-width: 550px) {
     body{

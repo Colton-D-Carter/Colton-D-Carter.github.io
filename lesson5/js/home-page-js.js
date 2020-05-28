@@ -1,4 +1,4 @@
-alert ('I suck at java 1');
+
 const mainnav = document.querySelector('.navigation');
 const hambutton = document.querySelector('.ham');
 
@@ -15,9 +15,12 @@ let monthname =m_name[mydate.getMonth()];
 
 
 const dateoutput = document.querySelector('.date');
-alert (weekname);
+
 dateoutput.textContent = weekname + ", " + mydate.getDate() + " " + monthname + " " + mydate.getFullYear();
 
-if (weekname == 'Saturday') {
-    alert ('I suck at java 3');
-    }
+
+const salart = document.querySelector('.sat-alart');
+if (weekname === 'Friday'){
+    salart.style.display = "block";
+}
+    
