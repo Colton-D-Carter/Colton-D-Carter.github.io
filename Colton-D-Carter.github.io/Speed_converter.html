@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<title>MPH to KPH Speed Converter</title>
+<body>
+
+<h2>Speed Converter</h2>
+<hr>
+
+<p>
+    <label>MPH</label>
+    <input id="inputMPH" type="number" placeholder="MPH" oninput="speedConverter(this.value)" onchange="speedConverter(this.value)">
+</p>
+  <p>KPH: <span id="outputKPH"></span></p>
+  <p>Knots: <span id="outputKnots"></span></p>
+  <p>Mach: <span id="outputMach"></span></p>
+<p>
+<hr>
+    <label>KPH</label>
+    <input id="inputKPH" type="number" placeholder="KPH" oninput="speedConverterk(this.value)" onchange="speedConverterk(this.value)">
+</p>
+  <p>MPH: <span id="outputMPHk"></span></p>
+  <p>Knots: <span id="outputKnotsk"></span></p>
+  <p>Mach: <span id="outputMachk"></span></p>
+<p>
+<hr>
+    <label>Knots</label>
+    <input id="inputKnots" type="number" placeholder="Knots" oninput="speedConverterkn(this.value)" onchange="speedConverterkn(this.value)">
+</p>
+  <p>MPH: <span id="outputMPHkn"></span></p>
+  <p>KPH: <span id="outputKPHkn"></span></p>
+  <p>Mach: <span id="outputMachkn"></span></p>
+<p>
+<hr>
+    <label>Mach</label>
+    <input id="inputMach" type="number" placeholder="Mach" oninput="speedConverterm(this.value)" onchange="speedConverterm(this.value)">
+  </p>
+  <p>MPH: <span id="outputMPHm"></span></p>
+  <p>KPH: <span id="outputKPHm"></span></p>
+  <p>Knots: <span id="outputKnotsm"></span></p>
+  
+  <script>
+  function speedConverterm(valNum) {
+    document.getElementById("outputMPHm").innerHTML=valNum*761.207;
+    document.getElementById("outputKPHm").innerHTML=valNum*1225.044;
+    document.getElementById("outputKnotsm").innerHTML=valNum*661.4708;
+  }
+
+  function speedConverterkn(valNum) {
+    document.getElementById("outputMPHkn").innerHTML=valNum*1.150779;
+    document.getElementById("outputKPHkn").innerHTML=valNum*1.852;
+    document.getElementById("outputMachkn").innerHTML=valNum/661.4708;
+  }
+
+  function speedConverterk(valNum) {
+    document.getElementById("outputMPHk").innerHTML=valNum/1.609344;
+    document.getElementById("outputKnotsk").innerHTML=valNum/1.852;
+    document.getElementById("outputMachk").innerHTML=valNum/1225.044;
+  }
+  function speedConverter(valNum) {
+    document.getElementById("outputKnots").innerHTML=valNum/1.150779;
+    document.getElementById("outputKPH").innerHTML=valNum*1.609344;
+    document.getElementById("outputMach").innerHTML=valNum/761.207;
+  }
+</script>
+
+</body>
+</html>
