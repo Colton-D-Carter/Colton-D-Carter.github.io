@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Town-Home-Page</title>
-    <link type="text/css" rel="stylesheet" href="css/lesson5.css">
+    <link type="text/css" rel="stylesheet" href="css/lesson6.css">
     <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
@@ -14,7 +14,6 @@
                 9:00a.m. Saturday at the city park pavilion.
             </p>
         </div>
-        
         <div class="header-background">
         <img src="lesson3/iconfinder_weather_1054936.png" alt="weather-logo" class="logo">
         <h1>The Weather Site</h1>
@@ -35,15 +34,20 @@
     <main>
         <h2>Preston Idaho</h2>
         <div class = "hero">
-            <img src = "images\IMG_3333.JPG" alt = "hero" class="parent">
+            <picture>
+            <source media="(min-width:680px)" srcset="images\wdd230_image_franklinOriginal(1).jpg">
+            <source media="(min-width:550px)" srcset="images\wdd230_image_franklinOriginal(3).jpg">
+            <img src = "images\wdd230_image_franklinOriginal(2).jpg" alt = "hero" class="parent">
+            </picture>
             <div class = "summary">
             <h2><u>Weather Summar</u>y</h2>
             
                 <p>Currently: <span class="yellow"> Sunny</span></p>
-                <p>High: <span class="yellow">76 &#8457; </span></p>
-                <p>Wind Chill: <span class="yellow">&#8457; </span></p>
+                <p>High: <span class="yellow"> 76 &#8457; </span></p>
+                <p>Wind Chill: <span class="yellow"> <span id="demo1" maxlength="5"> </span> &#8457; </span></p>
                 <p>Humidity: <span class="yellow"> 69%</span></p>
-                <p>Wind Speed: <span class="yellow"> 5mph </span> </p>
+                <p>Wind Speed: <span class="yellow"> <span id="demo2"></span> mph</p>
+                <p>Average Temperature: <span class="yellow"> <span id="demo3"></span> &#8457;</p>
             </div>
         </div>
         
@@ -61,6 +65,7 @@
         <p>&copy;The Weather Site | Attributions | Colton Carter |
         <p> Date: <span class="date"></span></p>
     </footer>
-    <script src="js/home-page-js.js"></script>
+    <script src="js/home-page-6.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
