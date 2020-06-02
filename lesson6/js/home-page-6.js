@@ -23,5 +23,13 @@ const salart = document.querySelector('.sat-alart');
 if (weekname === 'Friday'){
     salart.style.display = "block";
 }
+
+WebFont.load({
+    google: {
+      families: [
+         'Noto Sans JP'
+      ]
+    }
+  });
  
 

@@ -1,5 +1,5 @@
 /* API */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+/* @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato'); */
 
 /* END of API */
 
@@ -11,7 +11,7 @@
   --accent2-color: #56cbf9;
 
   --heading-font: "Arial Black", Gadget, sans-serif;
-  --paragraph-font: Georgia, serif;
+  --paragraph-font: "Noto Sans JP" , serif;
   --nheader-background-color:#7699d4;
   --footer-color: #7699d4;
   --exfooter-color: #56cbf9;
