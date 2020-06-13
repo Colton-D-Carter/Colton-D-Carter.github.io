@@ -194,8 +194,13 @@
     grid-row-end: 1;
   }
   
+  .norm:hover {box-shadow: 0 0 200px black;}
+  /* .bbox:hover {box-shadow: 0 0 200px black;} */
   .bbox{
     display: none;
+  }
+  .logo {
+    float: left;
   }
   
   @media screen and (max-width: 680px) {
