@@ -15,7 +15,7 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
 
         for (let i = 0; i < towns.length; i++ ) {
-            if(towns[i].name == "Fish Haven", towns[i].name == "Preston", towns[i].name == "Soda Springs") { /*filter I need to call only towns by the name of Preston,Fish Haven, and Soda Springs you can find the Json link at requestURL(line 7 of jnine.js) */
+            if(towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") { /*filter I need to call only towns by the name of Preston,Fish Haven, and Soda Springs you can find the Json link at requestURL(line 7 of) */
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
             let para1 = document.createElement('p');
