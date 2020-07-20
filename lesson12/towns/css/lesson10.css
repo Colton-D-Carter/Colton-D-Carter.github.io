@@ -53,6 +53,7 @@ header {
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--text-background-color);
+  margin: 0px;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Town-Home-Page</title>
+    <link type="text/css" rel="stylesheet" href="storm.css">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <header>
+        <div class="sat-alart">
+            <p>Saturday = Preston Pancakes in the Park! <br>
+                9:00a.m. Saturday at the city park pavilion.
+            </p>
+        </div>
+        <div class="header-background">
+        <img src="imgs\iconfinder_weather_1054936.png" alt="weather-logo" class="logo">
+        <h1 class="head-h1">The Weather Site</h1>
+        <div class="catch-phrase"> <p>The Weather site catch phrase/motto </p> </div>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li> <a href="../index.html"> Home </a></li>
+                <li> <a href="../towns/preston.html"> Preston </a></li>
+                <li> <a href="../towns/soda-springs.html"> Soda Springs </a></li>
+                <li> <a href="../towns/fish-haven.html"> Fish Haven </a></li>
+                <li class="active"> <a href="#"> Storm Center </a></li>
+                <li> <a href="gallery-12.html"> Gallery </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <body>
+            <form action="/action_page.php">
+                <label for="fname">* First name:</label><br>
+                <input type="text" id="fname" name="fname" minlength="5" pattern="[A-Za-z]{5}" required><br>
+                
+                <label for="lname">* Last name:</label><br>
+                <input type="text" id="lname" name="lname" minlength="5" pattern="[A-Za-z]{5}" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com"> <br>
+                
+                <label for="tel">Telephone:</label><br>
+                <input type="tel" id="telephone" name="telephone" required placeholder="(111)111-111-1111"><br>
+                
+                <label for="zip">*Zip Code :</label><br>
+                <input type="number" id="zip" name="zip" required><br>
+                
+                <label for="date">Storm Date:</label><br>
+                <input type="date" id="date" name="date"><br>
+
+                <label for="storms">Storm Type:</label><br>
+                <input list="browser" name="storms" id="storms">
+                <datalist id="browser">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist><br>
+
+                <label for="severity">Storm Severity:</label><br>
+                <input type="range" id="severity" name="severity" min="1" max="10"><br>
+
+                <label for="region">Storm Region:</label><br>
+                <select name="region" id="region">
+                    <option value="disabled" disabled>Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda-Springs">Soda Springs</option>
+                    <option value="Fish-Haven">Fish Haven</option>
+                </select><br>
+
+
+                <label for="level">User In-Danger Level:</label><br>
+                <input type="radio" id="yes" name="level" value="yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="maybe" name="level" value="maybe">
+                <label for="maybe">Maybe</label><br>
+                <input type="radio" id="no" name="level" value="no">
+                <label for="no">No</label><br>
+
+                <label for="info">Additional Information or Comments:</label> <br>
+                <textarea id="info" name="info" rows="4" cols="50"></textarea> <br>
+
+                <input type="submit" formaction="thanks.html" value="submit" />
+
+              </form>
+            
+        </body>    
+            </main>
+    <footer id="Footer">
+        <p>&copy;The Weather Site | Attributions | Colton Carter |
+        <p> Date: <span class="date"></span></p>
+    </footer>
+    <script src="w7.js"></script>
+</body>
+</html>

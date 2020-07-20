@@ -36,7 +36,7 @@ html {
 }
 body {
   max-width: 900px;
-  height: 950px;
+  height: 850px;
   margin: 0 auto;
   background-color: white;
   
@@ -140,13 +140,9 @@ li:first-child{
 .header-background{
     background-color:var(--nheader-background-color);
 }
-.head-h1{
-  margin: 0px;
-}
 .catch-phrase {
     padding: -80px;
     text-align: center;
-    margin: 0px;
 }
 
 h2{
@@ -206,23 +202,11 @@ footer{
   
 }
 
-table, th, td {
-  padding: 10px;
-  border: 1px solid black;
-  border-collapse: collapse;
-  text-align: center;
-  padding-top: -20px;
-  
-}
-.table-h-space{
-  margin: 5px;
-}
-
 
 @media screen and (max-width: 550px) {
     body{
         max-width: 300px;
-        height: 1400px;
+        height: 900px;
         padding: 0px;
         margin: 0 auto;
     }
@@ -261,7 +245,7 @@ table, th, td {
 
     body{
         max-width: 650px;
-        height: 1000px;
+        height: 900px;
         padding: 1em;
         margin: 0 auto;
     }
