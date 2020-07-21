@@ -207,13 +207,14 @@ fetch(api7day)
           document.getElementById('tmp' + x).textContent = y;
 
           //img
-          imagesrc = jsonObject.daily[x].weather[0].icon;
-          desc = jsonObject.daily[x].weather[0].description;
-
+          //imagesrc =  src="http://openweathermap.org/img/wn/" + jsonObject.daily[x].weather[0].icon + "@2x.png";
+          //imagesrc = jsonObject.daily[x].weather[0].icon;
+          //desc = jsonObject.daily[x].weather[0].description;
+          console.log(jsonObject.daily[x].weather[0].icon)
           //console log check for icon
           //console.log(jsonObject.daily[i].weather[i].icon);
-
-          document.getElementById('icon' + x).setAttribute('src', './images/' + imagesrc + '.svg');
-          document.getElementById('icon' + x).setAttribute('alt', desc);    
+          
+          //document.getElementById('icon' + x).setAttribute("http://openweathermap.org/img/wn/" + imagesrc + "@2x.png");
+          //document.getElementById('icon' + x).setAttribute('alt', desc);    
       }
     });
